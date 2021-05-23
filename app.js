@@ -94,12 +94,12 @@
         numCorrect++;
 
         // color the answers green
-        answerContainers[questionNumber].style.color = 'lightgreen';
+        answerContainers[questionNumber].style.color = 'white';
       }
       // if answer is wrong or blank
       else{
         // color the answers red
-        answerContainers[questionNumber].style.color = 'red';
+        answerContainers[questionNumber].style.color = 'rosybrown';
       }
     });
 
