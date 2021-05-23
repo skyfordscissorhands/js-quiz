@@ -1,6 +1,40 @@
-
+(function(){
   // Functions
   function buildQuiz(){
+  // const quizContainer = document.getElementById('quiz');
+  // const resultsContainer = document.getElementById('results');
+  // const submitButton = document.getElementById('submit');
+  // const myQuestions = [
+  //   {
+  //     question: "What do you call a group of flamingos?",
+  //     answers: {
+  //       a: "A flock",
+  //       b: "A colony",
+  //       c: "A flamboyance"
+  //     },
+  //     correctAnswer: "c"
+  //   },
+  //   {
+  //     question: "What do you call a grup of elephants?",
+  //     answers: {
+  //       a: "a parade",
+  //       b: "a band",
+  //       c: "a group"
+  //     },
+  //     correctAnswer: "a"
+  //   },
+  //   {
+  //     question: "What do you call a bunch of hippos?",
+  //     answers: {
+  //       a: "pack",
+  //       b: "troop",
+  //       c: "mob",
+  //       d: "thunder"
+  //     },
+  //     correctAnswer: "d"
+  //   }
+  // ];
+    // buildQuiz();
     // variable to store the HTML output
     const output = [];
 
@@ -152,4 +186,4 @@
   submitButton.addEventListener('click', showResults);
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
-
+})();
